@@ -179,7 +179,7 @@ const compareAgeDifference = (matchA, matchB) => {
 
 // console.log(matchesUnsorted.sort(compareAgeDifference));
 const matchesSorted = matchesUnsorted.sort(compareAgeDifference)
-// console.log(matchesSorted.slice(0, 20));
+
 
 const first20Matches = matchesSorted.slice(0, 20);
 
@@ -193,16 +193,6 @@ const printPerson = person => {
 };
 
 first20Matches.forEach(printPerson);
-
-
-// console.log(randomPersonData[0]);
-
-// console.log(personsMassaged[0]);
-// console.log(findMatches(personsMassaged, birthdayCandidate));
-
-
-
-
 
 
 
